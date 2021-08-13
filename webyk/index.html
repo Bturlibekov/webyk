@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&    family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Webyk</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container fluid">
+                <div class="header-top">
+                    <div class="header-full-title">
+                        <div class="header-logo">
+                            <a href="#" class="header-logo-big">
+                                <img src="./images/webyk.jpg" alt="">
+                            </a>
+                            <a href="#" class="header-logo-small">
+                                <img src="./images/header-logo-small.jpg" alt="WEBYK">
+                            </a>
+                        </div>
+                        <div class="header-slogan">
+                            <span>индивидуальные OnLine уроки по web технологиям</span>
+                        </div>
+                    </div>
+                    <center>
+                        <div class="header-contact">
+                            <i class="fas fa-phone" style="color:#39A0E2" aria-hidden="true">+38  067 299 83 30</i>
+                            <i class="fas fa-envelope">ishenkov.o@yandex.ru</i>
+                        </div>
+                    </center>
+                    <div class="top-nav-1">
+                        <a href="#" class="call-btn">вход</a>
+                        <a href="#" class="call-btn">регистрация</a>
+                    </div>
+                </div>
+        </div>
+    </header> <!-- /Header -->
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container fluid">
+            <div class="navbar-menu">
+                <ul id="navbar-menu">
+                    <li><a href="#" class="nav-link">Обучающие курсы</a></li>
+                    <li><a href="#" class="nav-link">курсы с видео</a></li>
+                    <li><a href="#" class="nav-link">как начать учиться</a></li>
+                    <li><a href="#" class="nav-link">отзывы</a></li>
+                    <li><a href="#" class="nav-link">заявка</a></li>
+                    <li><a href="#" class="nav-link">контакты</a></li>
+                    <li><a href="#" class="nav-link">блог</a></li>
+
+                </ul>
+                <button class="burger" type="button" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="top-nav-2">
+                    <a href="#" class="call-btn">вход</a>
+                    <a href="#" class="call-btn">регистрация</a>
+                </div>
+                <form action="" method="GET" id="form-search" class="navbar-form">
+                    <div class="input-group">
+                        <input type="text" id="search" name="poisk" class="form-control" placeholder="Поиск">
+                    </div>
+                    <div id="search-submit" class="input-group-addon">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </nav> <!-- /Navbar-->
+    <!-- Front-end -->
+    <section class="front-end-block">
+        <div class="container">
+        <div class="full-block-first">
+        <div>
+        <div class="info-block-1">
+        <h4 class="profession">Профессия</h4>
+        <div class="block-with-border">
+        <div class="start-time">Старт: <span class="start-date">06.09.2021 </span> в 19:00 МСК <span class="start-kiev">[19:00 Киев]</span></div>
+        <h1 class="front-heading">FRONT-END</h1>
+        <h2 class="front-heading">разработчик</h2>
+        </div>
+        </div>
+        <div class="technologies">
+        <ul class="position_tech">
+        <li>html5</li>
+        <li>css3</li>
+        <li class="wide">javascript</li>
+        <li class="wide">bootstrap</li>
+        <li>jquery</li>
+        <li>git</li>
+        <li class="wide">sass</li>
+        <li>vue js</li>
+        </ul>
+        <div class="buttons">
+        <div onclick="slowScroll ('.payment');" class="btn red">Записаться на курс
+        <div class="btn__blobs">
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        </div>
+        <div class="clean"></div>
+        <div onclick="slowScroll ('.plan_kursa');" class="btn white">Программа обучения
+        <div class="btn__blobs">
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="image">
+        <div id="pictures-bg" data-relative-input="true">
+        <div data-depth="0.1" class="one-1"><img src="./images/picture-front-end-wall.svg" class="picture-wall" alt="Картина"></div>
+        <div data-depth="0.2" class="one-2"><img src="./images/clock-front-end.svg" class="clock" alt="Картина"></div>
+        <div data-depth="0.3" class="one-3"><img src="./images/bookshelf.svg" class="bookshelf" alt="Картина"></div>
+        <div data-depth="0.3" class="one-4"><img src="./images/bookshelf_2.svg" class="bookshelf_2" alt="Картина"></div>
+        </div>
+        <img src="./images/bg-front-end.svg" alt="Front-end разработчик">
+        </div>
+        </div>
+        <div class="bottom-stuff">
+        <img src="./images/picture-front-end-wall.svg" class="tablet-picture-wall" alt="Картина" style="display: none;">
+        <div class="play-button">
+        <div>
+        <i class="fas fa-play"></i>
+        </div>
+        </div>
+        <img src="./images/front-end-bg-tablet.svg" class="front-end-bg-tablet" alt="Front-end разработчик">
+        <img src="./images/front-end-man.svg" class="front-end-man not-top" alt="Front-end разработчик">
+        <img src="./images/front-end-cup.svg" alt="Front-end разработчик">
+        </div>
+    </div>
+    </section>
+    <!-- /Front-end -->
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <div class="features-inner">
+                <h2>Характеристики курса</h2>
+                <p>Программа рассчитана на новичков, которые хотят изучить веб программирование и за короткий промежуток времени начать создавать веб сайты. За время программы вы узнаете множество новых понятий, изучите теорию, а также на практике научитесь строить полноценные веб сайты, применяя все современные технологии и навыки.</p>
+            </div>
+            <div class="images-info">
+                <img src="./images/html.svg" alt="">
+                <img src="./images/css.svg" alt="">
+                <img src="./images/sass.svg" alt="">
+                <img src="./images/javascript.svg" alt="">
+                <img src="./images/jquery.svg" alt="">
+                <img src="./images/bootstrap.svg" alt="">
+                <img src="./images/gulp.svg" alt="">
+                <img src="./images/github.svg" alt="">
+            </div>
+        </div>
+    </section> <!-- /Features-->
+    <!-- Overview -->
+    <section class="overview">
+        <div class="container">
+            <h2><Что будет в курсе></h2>
+            <div class="overview-inner">
+                <div class="list-overview">
+                    <div class="block-overview">
+                        <div class="img-holder">
+                            <img src="./images/graph-04.svg" alt="">
+                        </div>
+                        <div class="text-holder">
+                            <h3>Большая база знаний</h3>
+                            <p class="txt">На протяжении 7 недель вам предстоит пройти 11 теоретических и 87 практических уроков. Общая продолжительность которых более 40 часов.</p>
+                        </div>
+                    </div>
+                    <div class="block-overview">
+                        <div class="img-holder">
+                            <img src="./images/graph-03.svg" alt="">
+                        </div>
+                        <div class="text-holder">
+                            <h3>Проведение лекций</h3>
+                            <p class="txt">Каждый новый модуль открывается по времени в 19:00. У вас будет достаточно времени чтобы пройти все уроки, а также выполнить домашние задания, прежде чем переходить к новому модулю</p>
+                        </div>
+                    </div>
+                    <div class="block-overview">
+                        <div class="img-holder">
+                            <img src="./images/graph-02.svg" alt="">
+                        </div>
+                        <div class="text-holder">
+                            <h3>Домашние задания</h3>
+                            <p class="txt">К каждой лекции есть задания, которые вам предстоит отправлять на проверку. Также на самом сайте вы найдете сотни тестовых и более 300 практических заданий во вкладке "Тесты и практика"</p>
+                        </div>
+                    </div>
+                    <div class="block-overview">
+                        <div class="img-holder">
+                            <img src="./images/graph-01.svg" alt="">
+                        </div>
+                        <div class="text-holder">
+                            <h3>Помощь и поддержка</h3>
+                            <p class="txt">Каждый ученик получает поддержку как со стороны лектора, так и со стороны наставника. Все вопросы можно задавать напрямую через специальную форму на сайте</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-animated">
+                    <img src="./images/front_end_main_img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section> <!-- /Overview -->
+    <!-- Practicum -->
+    <section class="overview-practicum">
+        <div class="container">
+            <h2>Практикум</h2>
+            <div class="practicum-block">
+                <div class="practicum-img">
+                    <img src="./images/practicum.gif" alt="">
+                </div>
+                <div class="practicum-text">
+                    <p>Выполняйте задания внутри нашего специального редактора, который в режиме живого времени проверяет ваш код и показывает либо ошибки, либо корректное выполнение задания. Вы можете протестировать работу нашего редактора по
+                    <a href="#" title="Онлайн редактор">этой ссылке</a> Редактор позволяет практиковаться по нескольким языкам программирования. За счёт редактора вы научитесь писать верный код и создавать на его основе различные проекты.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /Practicum -->
+    <!-- Graphic -->
+    <section class="graphic">
+        <div class="container">
+            <div class="graphic-inner">
+                <div class="graphic-block">
+                    <h4>Графика средних зарплат</h4>
+                    <p>Согласно нашему исследованию, средняя зарплата веб разработчика через пол года 800$. На графике приведены средние зарплаты в соответствие с опытом специалиста.</p>
+                    <a href="#" class="btn">Записаться на курс</a>
+                </div>
+                <div class="graphic-chart">
+                    <img src="./images/front-end-chart.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section> <!-- /Graphic -->
+    <!-- Rezume -->
+    <section class="rezume">
+        <div class="container">
+            <div class="rezume-inner">
+                <div class="rezume-card">
+                    <div class="rezume-block">
+                        <div class="rezume-item">
+                            <img src="./images/user-anketa.svg" alt="">
+                        </div>
+                        <div class="info-block">
+                            <span class="anketa-name">Ричард Хэндрикс</span>
+                        <span class="anketa-position">Front-End developer</span>
+                        <span class="anketa-punkt">Контакты:</span>
+                        <ul class="contact">
+                            <li><i class="fa fa-circle"></i><p>richard@silicon.valley</p></li>
+                            <li><i class="fa fa-circle"></i><p>+1 234 5678 90</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="key-points">
+                        <span class="anketa-punkt">Ключевые моменты:</span>
+                        <ul class="contact">
+                            <li><i class="fa fa-circle"></i><p>Проекты в портфолио: 5</p></li>
+                            <li><i class="fa fa-circle"></i><p>Диплом об успешном окончании курса</p></li>
+                            <li><i class="fa fa-circle"></i><p>Более 40 часов практики</p></li>
+                            <li><i class="fa fa-circle"></i><p>Более 300 выполненных заданий по Front-end</p></li>
+                            </ul>
+                        <span class="anketa-punkt">Навыки</span>
+                        <ul class="contact">
+                            <li><i class="fa fa-circle"></i><p>Уверенные знания HTML5 и CSS3</p></li>
+                            <li><i class="fa fa-circle"></i><p>Знание JavaScript & jQuery</p></li>
+                            <li><i class="fa fa-circle"></i><p>Препроцессор SASS/SCSS</p></li>
+                            <li><i class="fa fa-circle"></i><p>Знание таск-менеджера Gulp и Git</p></li>
+                            <li><i class="fa fa-circle"></i><p>Фреймворк Bootstrap</p></li>
+                            <li><i class="fa fa-circle"></i><p>Разработка на основе Vue JS</p></li>
+                            <li><i class="fa fa-circle"></i><p>Знание формата SVG</p></li>
+                            <li><i class="fa fa-circle"></i><p>Адаптивная верстка</p></li>
+                            <li><i class="fa fa-circle"></i><p>Кроссбраузерная и кроссплатформенная верстка</p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rezume-view">
+                    <h4>Именно так будет выглядеть ваше резюме после <span>06 ноября </span></h4>
+                    <img src="./images/pointing-left.svg" class="down">
+                </div>
+            </div>
+        </div>
+    </section> <!-- /Rezume-->
+    <!-- Course-plan -->
+    <section class="course-plan">
+        <div class="container">
+            <div class="course-inner">
+                <div class="block-course">
+                    <h4>Программа обучения</h4>
+                    <div class="lesson txt active">#1 - HTML-разметка</div>
+                    <div class="lesson txt">#2 - CSS3 оформление</div>
+                    <div class="lesson txt">#3 - CSS3 анимация, адаптивность и FlexBox</div>
+                    <div class="lesson txt">#4 - Фреймворк Bootstrap</div>
+                    <div class="lesson txt">#5 - Таск-менеджер Gulp</div>
+                    <div class="lesson txt showAll"><center>Показать все темы уроков</center></div>
+                </div>
+                <div class="block-description">
+                    <h4>Описание</h4>
+                    <div class="description">
+                        <p class="txt"><img src="./images/html.svg" alt="HTML"> Начинать путь веб разработчика необходимо с языка разметки <b>HTML</b>. В модуле по HTML вам предстоит пройти 11 уроков, общая продолжительность которых составляет 3.5 часов обучения.<br><br>Вы изучите теорию, выполните установку редактора, узнаете про удобные плагины, позволяющие писать код быстрее, а также создадите множество различных вещей используя <b>HTML5</b>.<br><br>В ходе модуля вы изучите HTML, познакомитесь со всеми стандартными HTML тегами, а также атрибутами для них.<br><br><img id="gif_image" src="./images/main_html_gif.gif" style="border-color:#252525"></p>
+                        <br>
+                        <span class="time">3 часа 35 минут</span>
+                        <span class="homework">Задания</span>
+                        <span class="code">Исходники</span>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section> <!-- /Course-plan-->
+    <!-- Rewiews -->
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-inner">
+                <div class="review">
+                    <h3>Отзывы</h3>
+                    <div class="review-item">
+                        <p class="txt">В нашей <noindex><a href="https://vk.com/topic-113958919_46049461" rel="nofollow" target="_blank">группе Вконтакте</a></noindex> вы найдете отзывы от учеников, что прошли данный курс. Некоторые из отзывов представлены ниже:</p>
+                        <img src="./images/front-program-1.png" alt="">
+                        <img src="./images/front-program-2.png" alt="">
+                    </div>
+                </div>
+                <div class="review md">
+                    <h3>Наши курсы</h3>
+                    <div class="review-item">
+                        <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed dolores, soluta eum, quae voluptatum nihil, vel repudiandae optio iste cum minus placeat voluptate! Molestiae beatae, repellendus sed harum doloremque ipsa.</p>
+                        <img src="https://via.placeholder.com/500x150" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> <!-- /Rewiews-->
+    <!-- Payment -->
+    <div class="payment">
+        <div class="container">
+            <h3>Стоимость обучения</h3>
+            <div id="tarrifs">
+            <div class="sale"><h4>До 15 августа 2021 скидка <b>-20%</b></h4><h4>До 22 августа 2021 скидка <b>-15%</b></h4></div> <!-- Здесь информация про скидку на курс -->
+            <p class="fix-price hint">Зафиксируйте цену, купите курс сейчас с оплатой в <b>два платежа</b>. Первый платеж сейчас, второй в любое время до старта программы.</p>
+            <div class="mobile-scroll" style="display: none;">
+            <span class="mouse"></span>
+            <p class="scroll-right">листайте</p>
+            </div>
+            <div style="clear: both"></div>
+            <div class="overflow">
+            <div class="eco-courses-badge" style="display: none;" onclick="$('#eco-courses').show ();">Акция добра</div>
+            <div class="table">
+            <div class="row">
+            <div class="column first">
+            <select id="money"  onchange="currency_change()" style="display: none;">
+            <option value="rub">Рубли</option>
+            <option value="uah">Гривны</option>
+            <option value="usd">Доллары</option>
+            <option value="eur">Евро</option>
+            </select>
+            <div class="nice-select" tabindex="0"><span class="current">Рубли</span>
+                <ul class="list">
+                    <li data-value="rub" class="option selected">Рубли</li>
+                    <li data-value="uah" class="option">Гривны</li>
+                    <li data-value="usd" class="option">Доллары</li>
+                    <li data-value="eur" class="option">Евро</li>
+                </ul>
+            </div>
+            </div>
+            <div class="column head first">
+            <div class="type">Мини</div>
+            <div class="oldPrice" id="400_old">9 000 <i class="fas fa-ruble-sign"></i></div>
+            <div class="nowPrice" id="400">7 200 <i class="fas fa-ruble-sign"></i></div>
+            </div>
+            <div class="column head">
+            <div class="type">Стандарт</div>
+            <div class="oldPrice" id="1000_old">11 000 <i class="fas fa-ruble-sign"></i></div>
+            <div class="nowPrice" id="1000">8 800 <i class="fas fa-ruble-sign"></i></div>
+            </div>
+            <div class="column head">
+            <div class="type">Наилучший</div>
+            <div class="oldPrice" id="1700_old">13 000 <i class="fas fa-ruble-sign"></i></div>
+            <div class="nowPrice" id="1700">10 400 <i class="fas fa-ruble-sign"></i></div>
+            </div>
+            <div class="column head last">
+            <div class="type">Все включено</div>
+            <div class="oldPrice" id="3500_old">15 000 <i class="fas fa-ruble-sign"></i></div>
+            <div class="nowPrice" id="3500">12 000 <i class="fas fa-ruble-sign"></i></div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Доступ ко всем лекциям</p>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Материалы к урокам</p>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Домашние задания к лекциям</p>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Диплом об окончании курса</p>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Проверка домашних заданий</p>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Консультации с лектором</p>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Помощь в трудоустройстве</p>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon no">
+            <i class="fas fa-times"></i>
+            </div>
+            <div class="column icon">
+            <i class="fas fa-check"></i>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Перенос на новый поток</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>нет</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>нет</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>нет</p>
+            </div>
+            <div class="column text">
+            <p>1 раз <i class="fas fa-question-circle" data-title="бесплатный переход на новый поток в случае, если вы не успеваете"></i></p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Участие в конкурсе</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>нет</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>нет</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>нет</p>
+            </div>
+            <div class="column text">
+            <p>да <i class="fas fa-question-circle" data-title="возможность пройти программу обучения бесплатно"></i></p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Тестовые задания</p>
+            </div>
+            <div class="column text">
+            <p>средний <i class="fas fa-question-circle" data-title="только тесты с уровнем сложности «Начальный» и «Средний»"></i></p>
+            </div>
+            <div class="column text">
+            <p>все тесты <i class="fas fa-question-circle" data-title="тесты всех уровней сложности"></i></p>
+            </div>
+            <div class="column text">
+            <p>все тесты <i class="fas fa-question-circle" data-title="тесты всех уровней сложности"></i></p>
+            </div>
+            <div class="column text">
+            <p>все тесты <i class="fas fa-question-circle" data-title="тесты всех уровней сложности"></i></p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Практические задачи</p>
+            </div>
+            <div class="column text">
+            <p>нет задач <i class="fas fa-question-circle" data-title="дополнительных задач нет, только домашние задания к лекциям"></i></p>
+            </div>
+            <div class="column text">
+            <p>300 задач <i class="fas fa-question-circle" data-title="более 300 дополнительных практических задач"></i></p>
+            </div>
+            <div class="column text">
+            <p>300 задач <i class="fas fa-question-circle" data-title="более 300 дополнительных практических задач"></i></p>
+            </div>
+            <div class="column text">
+            <p>300 задач <i class="fas fa-question-circle" data-title="более 300 дополнительных практических задач"></i></p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column description">
+            <p>Подписка на сайте</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>4 месяца</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>6 месяцев</p>
+            </div>
+            <div class="column text no-cursor">
+            <p>9 месяцев</p>
+            </div>
+            <div class="column text">
+            <p>1 год <i class="fas fa-question-circle" data-title="бесплатный доступ ко всем платным курсам на сайте"></i></p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="column first">
+            <select onchange="countOfPayments()" id="countOfPayments" style="display: none;">
+            <option value="one">1 платёж</option>
+            <option value="two">2 платежа</option>
+            </select>
+            <div class="nice-select" tabindex="0"><span class="current">1 платёж</span><ul class="list"><li data-value="one" class="option selected focus">1 платёж</li><li data-value="two" class="option">2 платежа</li></ul></div>
+            </div>
+            <div class="column">
+            <div class='btn red' onclick="buySubscription('Профессия Front-end разработчик', 'min')">
+            <span>Купить</span>
+            <div class='btn__blobs'>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            </div>
+            </div>
+            <div class="column">
+            <div class='btn red' onclick="buySubscription('Профессия Front-end разработчик', 'standart')">
+            <span>Купить</span>
+            <div class='btn__blobs'>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            </div>
+            </div>
+            <div class="column">
+            <div class='btn red' onclick="buySubscription('Профессия Front-end разработчик', 'best')">
+            Купить
+            <div class='btn__blobs'>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            </div>
+            </div>
+            <div class="column">
+            <div class='btn red' onclick="buySubscription('Профессия Front-end разработчик', 'the_best')">
+            <span>Купить</span>
+            <div class='btn__blobs'>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <p class="hint last">При покупке программы "Все включено", вы получаете доступ ко всем <a href="/lessons" target="_blank">платным курсам</a> бесплатно. На данный момент на сайте <b>10 платных курсов</b>. После прохождения программы обучения вы сможете продолжить улучшать навыки, изучая курсы, а также выполняя многочисленные практические задания на сайте</p>
+            <h3 id="free_sale_heading">Хотите бесплатно? <svg width="50" height="51" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#cool_svg)">
+            <path d="M25 50.5233c13.807 0 24.9999-11.1928 24.9999-24.9999S38.807.523438 25 .523438C11.1929.523438 0 11.7163 0 25.5234s11.1929 24.9999 25 24.9999z" fill="#FFC107"></path>
+            <path d="M24.9994 15.1767c1.4737 0 2.939-.2003 4.365-.5722 5.416-1.4124 11.3808-.5357 15.0985.3224 1.9823.4576 3.1261 2.536 2.4472 4.4538l-2.0934 5.9115c-.4811 1.3586-1.7878 2.2481-3.2281 2.1974l-9.5367-.3358c-1.6072-.0565-2.9657-1.2086-3.2839-2.785l-.4818-2.3858c-.316-1.5642-1.6908-2.6889-3.2865-2.6886-1.596 0-2.9708 1.1249-3.2867 2.6893l-.4817 2.3852c-.3184 1.5763-1.6768 2.7283-3.2839 2.785l-9.53667.3358c-1.44031.0508-2.74722-.8387-3.22817-2.1974l-2.09332-5.9115c-.67919-1.9178.46483-3.9961 2.44712-4.4538 3.71771-.8581 9.68244-1.7348 15.09854-.3224 1.4255.3718 2.8908.5721 4.3645.5721zM25.027 39.0602c-.275 0-.5512-.0052-.8289-.0157-4.35-.1645-8.1542-1.6128-10.4375-3.9737-.3559-.3679-.3459-.9546.0218-1.3102.368-.356.9546-.3459 1.3103.0219 4.074 4.2125 13.9866 4.6212 18.94.7805.2538-.1967.7352-.648.8992-.8052.3694-.3541.9558-.3419 1.3102.0275.3542.3694.3419.9559-.0276 1.3101-.0674.0647-.67.6405-1.0461.9322-2.5086 1.9447-6.1687 3.0326-10.1414 3.0326z" fill="#211F1D"></path>
+            </g>
+            <defs>
+            <clippath id="cool_svg">
+            <path fill="#fff" transform="translate(0 .523438)" d="M0 0h50v50H0z"></path>
+            </clippath>
+            </defs>
+            </svg></h3>
+            <div id="free_sale_block" onclick="$('#free_sale_text').slideToggle();">
+            <div class='btn red'>
+            Узнать детальнее <i class="fas fa-arrow-circle-down"></i>
+            <div class='btn__blobs'>
+            <div></div>
+            <div></div>
+            <div></div>
+            </div>
+            </div>
+            </div>
+            <p class="hint last" id="free_sale_text">Мы предлагаем вам полный возврат средств в случае успешного прохождения программы обучения! На курсе будет общий рейтинг среди всех учеников. Баллы можно будет заработать выполняя домашние задания, тесты, дополнительную практику и прочее. В конце программы ученик с наибольшим количеством баллов получает полный возврат средств за обучение. Выходит, что для бесплатного обучение вам лишь придется хорошо учиться. Победитель гарантировано будет и станете им вы или кто-то другой зависит лишь от ваших усилий, приложенных к курсу.<br><br><b>PS:</b> конкурс максимально прозрачный. Все ученики и их рейтинг всегда будет доступен на странице с программой обучения. В конце победитель записывает мини видео отзыв, который позже будут выложен здесь (на данный момент видео нет, так как это первый запуск подобной акции!).<br><br><b>Важный момент:</b> участвуют лишь ученики, купившие программу по тарифу «Все включено»</p>
+            </div>
+        </div>
+
+    </div>
+    <!-- /Payment -->
+    <section class="faq">
+        <div class="container">
+        <h3>Частые вопросы</h3>
+        <div class="allQuestions">
+        <div class="question" onclick="faqShow('#answer-1')">
+        <h5>Какие знания необходимы?</h5>
+        <p id="answer-1" style="display: none;">Программа обучения рассчитана на новичков, которые только стартуют свой путь в веб разработке. Вам не нужно обладать специальными знаниями и навыками, дабы приступить к этой программе обучения. Вы можете приступить к курсу будучи полным новичком в сфере и уже к концу курса у вас будет необходимый багаж знаний для работы веб программистом.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-2')">
+        <h5>Что входит в модули?</h5>
+        <p id="answer-2" style="display: none;">Каждый модуль состоит из теоретической и практической части. В теоретической части вы изучите весь материал в формате презентации, а далее приступите к закреплению всех знаний на практике. К каждому уроку прилагается готовый код и все материалы, который вы можете скачать для дальнейшего изучения</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-3')">
+        <h5>Как и где проходит обучение?</h5>
+        <p id="answer-3" style="display: none;">После покупки курса, всё обучение проходит на сайте в удобном формате. Каждая лекция открывается автоматически, при этом в кабинете ученика вы найдете таймер отсчёта к следующей лекции. К каждой лекции вы найдете описание, полезные ссылки, домашние задания, исходный материал, видео лекции, а также тестовые задания, практические задания, консультации и многое другое.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-4')">
+        <h5>Будет ли доступ после окончания программы?</h5>
+        <p id="answer-4" style="display: none;">Да. Когда программа закончится у вас уже не будет возможности выслать дипломную работу или же отправить на проверку домашнее задание. При этом доступ ко всем практическим заданиям, тестовым заданиям, лекциям, консультациям и прочим функциям сайта будут открыты для вас на протяжении всей подписки на сайте.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-5')">
+        <h5>Что входит в курс?</h5>
+        <p id="answer-5" style="display: none;">Курс состоит из 16 модулей, каждая длительностью в среднем около 2 с половиной часов. В лекции входит как теоретическая база, так и практические навыки создания веб сайтов. Общая продолжительность обучения составляет свыше <b>40 часов</b>. К каждой лекции есть домашние задания, а также исходные материалы (<span style="font-style: italic">весь код из уроков</span>).</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-6')">
+        <h5>Что такое подписка на сайте?</h5>
+        <p id="answer-6" style="display: none;">Подписка на сайте даст вам дополнительные домашние задания. Если у вас уже есть подписка, то она будет продлена дополнительно. Прочитать более детально про подписку можно <a href="/reg" title="Подписка на сайте">здесь</a>.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-7')">
+        <h5>Что такое практические задачи?</h5>
+        <p id="answer-7" style="display: none;">Практические задания - это дополнительные задачи на закрепления знаний. Они представлены на сайте в разделе "<a href="/tests" title="Практические задания">Тесты и практика</a>". Там вы найдете более <b>300</b> дополнительных заданий по теме Front-end. Среди практики, будут задания по: HTML5, CSS3, JavaScript, jQuery и Bootstrap. Все задания разбиты на темы. Есть как маленькие, так и огромные задания на построение сайта. Ко всем заданиям есть готовые решения с кодом и комментариями.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-8')">
+        <h5>Что вы получите в конце курса?</h5>
+        <p id="answer-8" style="display: none;">К концу курса у вас будет чёткое понимание темы Front-end. Вы будете разбираться в таких вещах, как: HTML-разметка, CSS оформление, JavaScript, фреймворк Bootstrap, библиотека jQuery, фреймворк Vue JS, таск-менеджер Gulp и препроцессор SASS, а также контроль версий Git. Этих знаний будет достаточно, чтобы начать разрабатывать современные веб сайты, делать их на фрилансе или же устроиться на работу.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-9')">
+        <h5>Зачем нужен диплом?</h5>
+        <p id="answer-9" style="display: none;"><b>Диплом</b> - это отличное средство подтвердить свои знания и доказать работодателю что вы прошли курс, получили знания и успешно сдали дипломный проект. Диплом удачно пригодиться при трудоустройстве в компании, а также станет отличным дополнением при поиске заказов на фрилансе.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-10')">
+        <h5>Зачем покупать курс «Всё включено»?</h5>
+        <p id="answer-10" style="display: none;">Приобретая программу с типом "<u>Все включено</u>", вы получаете не только все материалы, лекции и домашние задания, но также бесплатный доступ ко всем платным курсам на сайте. На данный момент, на сайте <b>10 платных курсов</b>. Вы сможете получить их все и изучать параллельно с онлайн курсом или же после него.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-11')">
+        <h5>Нужно ли докупать подписку?</h5>
+        <p id="answer-11" style="display: none;">Нет, подписку дополнительно приобретать не нужно. Она выдается автоматически при покупке курса на сайте. Никаких дополнительных платежей кроме оплаты курса вам не придется проводить.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-12')">
+        <h5>Что такое проверка д/з?</h5>
+        <p id="answer-12" style="display: none;">К каждому модулю есть домашние задания на закрепление знаний. Проверка д/з позволит вам отправлять задание лектору на проверку, а также просматривать готовые решения задачи. Ответы лектора будут отображаться в кабинете ученика, дополнительно все уведомления будут приходить к вам на почту.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-13')">
+        <h5>Зачем нужны консультации?</h5>
+        <p id="answer-13" style="display: none;">Консультации это отличная помощь, ведь если вы чего-либо не будете знать, то всегда сможете задать вопрос лектору и получить ответ на свой вопрос. Это поможет вам в решение спорных вопросов, а также позволит быстрее изучить необходимый материал.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-14')">
+        <h5>В чем заключается помощь при трудоустройстве?</h5>
+        <p id="answer-14" style="display: none;">В программе мы обучаем всем необходимым знаниям, которые требуют работодатели при трудоустройстве на работу. Дополнительно мы помогаем ученикам с составлением резюме, с подготовкой страницы портфолио, помогаем с консультациями, даем подготовительные вопросы к собеседованиям и помогаем с первыми тестовыми заданиями от работодателей.</p>
+        </div>
+        <div class="question" onclick="faqShow('#answer-15')">
+        <h5>Как происходит оплата в два платежа?</h5>
+        <p id="answer-15" style="display: none;">При оплате в два платежа сумма разбивается на две равные части по 50% каждая. Первую часть вы сплачиваете сразу, а вторую вы можете оплатить в любой момент, но до старта программы. При оплате в два платежа вы закрепляете цену и второй платеж будет таким же как и первый, несмотря на то что курс уже будет стоить дороже.</p>
+        </div>
+        <div class="question ask-button">
+        <a href="/kontakti" class="btn red">
+        Задайте свой вопрос <i class="fas fa-arrow-right"></i>
+        <div class="btn__blobs">
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+        </a>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="rights">
+                    <p>© 2015-2021    Все права защищены | Webyk</p>
+                </div>
+                <div class="email">
+                    <p>ishenkov.o@yandex.ru</p>
+                </div>
+                <div class="contacts">
+                    <a href="#"><img src="./images/facebook.png"></a>
+                    <a href="#"><img src="./images/vk.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer> <!-- /footer-->
+</body>
+</html>
